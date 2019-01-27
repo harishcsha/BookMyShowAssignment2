@@ -1,0 +1,15 @@
+{
+  "name": "bookmyshow",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "jquery": "^3.1.1",
+    "routie": "^0.3.2",
+    "bootstrap-daterangepicker": "https://github.com/dangrossman/bootstrap-daterangepicker.git#^2.1.24",
+    "highcharts": "^5.0.7",
+    "Waves": "waves#^0.7.5",
+    "bootstrap-material-datetimepicker": "^2.7.1",
+    "js-sha256": "^0.5.0",
+    "ripple": "^0.16.2"
+  }
+}

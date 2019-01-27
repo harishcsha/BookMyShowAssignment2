@@ -1,0 +1,128 @@
+.container {
+  width: 100%;
+  margin-top: 60px;
+
+  @include respond-to(xs) {
+    width: 90%;
+  }
+
+  @include respond-to(sm) {
+    width: 90%;
+  }
+
+
+  .grid--container {
+    width: 90%;
+    margin: 0 auto;
+    display: table;
+
+    @include respond-to(xs) {
+      width: 90%;
+    }
+
+    @include respond-to(sm) {
+      width: 90%;
+    }
+
+    .grid {
+      width: 14%;
+      height: 220px;
+      display: inline-block;
+      vertical-align: middle;
+      margin: 12px;
+      padding: 2px;
+
+      @include respond-to(xs) {
+        width: 40%;
+      }
+
+      @include respond-to(sm) {
+        width: 28%;
+      }
+      
+      .video_link{
+        cursor: pointer;
+      }
+
+      .grid_column {
+        height: 200px;
+        border: 1px solid white;
+
+      
+        .circle {
+          width: 35px;
+          height: 35px;
+          background: #49ba8e;
+          border-radius: 50%;
+          position: relative;
+          left: 120px;
+          top: 5px;
+
+          .date {
+            color: #fff;
+            font-size: 8px;
+            position: absolute;
+            left: 7px;
+            top: 10px;
+
+            @include respond-to(xs) {
+              position: absolute;
+              left: 7px;
+              top: 3px;
+            }
+
+            @include respond-to(sm) {
+              position: absolute;
+              left: 7px;
+              top: 8px;
+            }
+          }
+
+          @include respond-to(xs) {
+            width: 30px;
+            height: 30px;
+            position: relative;
+            left: 80px;
+            top: 5px;
+          }
+
+          @include respond-to(sm) {
+            width: 35px;
+            height: 35px;
+            position: relative;
+            left: 150px;
+            top: 5px;
+          }
+        }
+
+        .info_container {
+          position: relative;
+          color: #fff;
+          top: 140px;
+          left: 110px;
+
+          .ratings {
+            font-size: 12px;
+            position: relative;
+            left: 10px;
+
+          }
+
+          .votes {
+            font-size: 10px;
+          }
+
+        }
+      }
+
+
+      .grid_name {
+        font-size: 12px;
+        margin-top: 8px;
+        color: #fff;
+      }
+    }
+
+  }
+
+}

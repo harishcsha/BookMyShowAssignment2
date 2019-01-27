@@ -1,0 +1,9 @@
+/*Import base styles*/
+@import "sass/base/colors.scss";
+@import "sass/base/mixins.scss";
+@import "sass/base/global.scss";
+
+/*Import Components*/
+@import "sass/components/header.scss";
+@import "sass/components//welcome.scss";
+@import "sass/components//video.scss";

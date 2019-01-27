@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="grid--container">
+    <% for(let detail in documentType.label[1]) {%>
+    <div class="grid">
+      <div id="<%- documentType.label[1][detail].EventCode%>" class="video_link">
+        <div class="grid_column">
+          <div class="circle">
+            <span class="date">
+              <%- documentType.label[1][detail].ShowDate%></span>
+          </div>
+          <div class="info_container">
+            <p class="ratings">
+              <%- documentType.label[1][detail].wtsPerc%> %</p>
+            <p class="votes">
+              <%- documentType.label[1][detail].wtsCount%> Votes</p>
+          </div>
+        </div>
+      </div>
+      <div class="grid_name">
+        <%- documentType.label[1][detail].EventTitle%>
+      </div>
+    </div>
+    <% } %>
+  </div>
+
+</div>

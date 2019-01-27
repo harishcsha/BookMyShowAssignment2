@@ -1,0 +1,36 @@
+<div class="videoCntr">
+
+  <div class="video--leftCntr">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/<%- decodedUrl %>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+  <div class="video--rightCntr">
+    <p class="video__details">
+      <%- getCompleteObject.EventTitle%>
+    </p>
+    <p class="video__details_language">
+      <%- getCompleteObject.EventLanguage%>
+    </p>
+    <div class="video__details_story">
+      <%- getCompleteObject.EventGenre %>
+    </div>
+    <div class="video__details_Dimension">
+      <%- getCompleteObject.EventDimension %>
+    </div>
+
+    <div class="video_details_Pv">
+      <p class="video__details_Percent">
+        <%- getCompleteObject.wtsPerc %> %
+      </p>
+      <p class="video__details_votes">
+        <%- getCompleteObject.csCount %> Votes.
+      </p>
+    </div>
+    <p class="video_details_Date">
+      <%- getCompleteObject.ShowDate %>
+    </p>
+
+  </div>
+
+</div>
+<div class="celar"></div>
